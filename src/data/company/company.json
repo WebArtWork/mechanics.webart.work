@@ -6,13 +6,13 @@
 	"image": "https://mechanics.webart.work/logo.png",
 	"siteUrl": "https://mechanics.webart.work",
 	"defaultSeo": {
-		"image": "/seo/default.jpg"
+		"image": "/seo/dashboard.jpg"
 	},
 	"pageSeo": {
 		"/": {
 			"title": "Mechanics | Learn how machines work, in 100 theories",
 			"description": "100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian.",
-			"image": "/seo/default.jpg"
+			"image": "/seo/dashboard.jpg"
 		},
 		"/theory": {
 			"title": "Mechanics theories",
@@ -34,22 +34,22 @@
 		"/privacy": {
 			"title": "Privacy policy",
 			"description": "What Mechanics stores, why it stores it, which services it uses and how to delete your account and all of your data.",
-			"image": "/seo/default.jpg"
+			"image": "/seo/privacy.jpg"
 		},
 		"/support": {
 			"title": "Support",
 			"description": "Get help with Mechanics: contact us, report a bug or delete your account and data.",
-			"image": "/seo/default.jpg"
+			"image": "/seo/support.jpg"
 		},
 		"/licenses": {
 			"title": "Licenses and credits",
 			"description": "Mechanics is free software under the GPL-3.0. See its source code and the projects it builds on.",
-			"image": "/seo/default.jpg"
+			"image": "/seo/licenses.jpg"
 		},
 		"/sign-in": {
 			"title": "Sign in",
 			"description": "Sign in to Mechanics with your Google or Apple account.",
-			"image": "/seo/default.jpg",
+			"image": "/seo/sign-in.jpg",
 			"robots": "noindex, nofollow"
 		},
 		"/theory/001-scalars-and-vectors": {
@@ -551,6 +551,11 @@
 			"title": "Failure Analysis and Troubleshooting Machines: mechanics theory",
 			"description": "Failure Analysis and Troubleshooting Machines describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to…",
 			"image": "/seo/default.jpg"
+		},
+		"/profile": {
+			"image": "/seo/profile.jpg",
+			"title": "Your learning profile",
+			"robots": "noindex, nofollow"
 		}
 	}
 }
