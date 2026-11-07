@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mechanics.webart.work/sitemap.xml

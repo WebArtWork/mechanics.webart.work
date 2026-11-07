@@ -1,0 +1,802 @@
+[
+	{
+		"n": 1,
+		"slug": "001-scalars-and-vectors",
+		"title": {
+			"en": "Scalars and Vectors",
+			"ua": "Скалярні та векторні величини"
+		}
+	},
+	{
+		"n": 2,
+		"slug": "002-force-and-its-units",
+		"title": {
+			"en": "Force and Its Units",
+			"ua": "Сила та її одиниці"
+		}
+	},
+	{
+		"n": 3,
+		"slug": "003-newtons-first-law-inertia",
+		"title": {
+			"en": "Newton's First Law (Inertia)",
+			"ua": "Перший закон Ньютона (інерція)"
+		}
+	},
+	{
+		"n": 4,
+		"slug": "004-newtons-second-law-f-m-a",
+		"title": {
+			"en": "Newton's Second Law (F = m × a)",
+			"ua": "Другий закон Ньютона (F = m × a)"
+		}
+	},
+	{
+		"n": 5,
+		"slug": "005-newtons-third-law-action-and-reaction",
+		"title": {
+			"en": "Newton's Third Law (Action and Reaction)",
+			"ua": "Третій закон Ньютона (дія та протидія)"
+		}
+	},
+	{
+		"n": 6,
+		"slug": "006-free-body-diagrams",
+		"title": {
+			"en": "Free-Body Diagrams",
+			"ua": "Діаграми вільного тіла"
+		}
+	},
+	{
+		"n": 7,
+		"slug": "007-resolving-forces-into-components",
+		"title": {
+			"en": "Resolving Forces into Components",
+			"ua": "Розкладання сил на складові"
+		}
+	},
+	{
+		"n": 8,
+		"slug": "008-resultant-force-and-vector-addition",
+		"title": {
+			"en": "Resultant Force and Vector Addition",
+			"ua": "Рівнодійна сила та додавання векторів"
+		}
+	},
+	{
+		"n": 9,
+		"slug": "009-equilibrium-of-a-particle",
+		"title": {
+			"en": "Equilibrium of a Particle",
+			"ua": "Рівновага матеріальної точки"
+		}
+	},
+	{
+		"n": 10,
+		"slug": "010-moment-of-a-force-torque",
+		"title": {
+			"en": "Moment of a Force (Torque)",
+			"ua": "Момент сили (крутний момент)"
+		}
+	},
+	{
+		"n": 11,
+		"slug": "011-equilibrium-of-a-rigid-body",
+		"title": {
+			"en": "Equilibrium of a Rigid Body",
+			"ua": "Рівновага твердого тіла"
+		}
+	},
+	{
+		"n": 12,
+		"slug": "012-couples-and-pure-moments",
+		"title": {
+			"en": "Couples and Pure Moments",
+			"ua": "Пари сил і чисті моменти"
+		}
+	},
+	{
+		"n": 13,
+		"slug": "013-center-of-gravity-and-center-of-mass",
+		"title": {
+			"en": "Center of Gravity and Center of Mass",
+			"ua": "Центр ваги та центр мас"
+		}
+	},
+	{
+		"n": 14,
+		"slug": "014-centroids-of-areas",
+		"title": {
+			"en": "Centroids of Areas",
+			"ua": "Центроїди площ"
+		}
+	},
+	{
+		"n": 15,
+		"slug": "015-support-reactions",
+		"title": {
+			"en": "Support Reactions",
+			"ua": "Реакції опор"
+		}
+	},
+	{
+		"n": 16,
+		"slug": "016-trusses-the-method-of-joints",
+		"title": {
+			"en": "Trusses: the Method of Joints",
+			"ua": "Ферми: метод вузлів"
+		}
+	},
+	{
+		"n": 17,
+		"slug": "017-trusses-the-method-of-sections",
+		"title": {
+			"en": "Trusses: the Method of Sections",
+			"ua": "Ферми: метод перерізів"
+		}
+	},
+	{
+		"n": 18,
+		"slug": "018-frames-and-machines",
+		"title": {
+			"en": "Frames and Machines",
+			"ua": "Рами та механізми"
+		}
+	},
+	{
+		"n": 19,
+		"slug": "019-distributed-loads",
+		"title": {
+			"en": "Distributed Loads",
+			"ua": "Розподілені навантаження"
+		}
+	},
+	{
+		"n": 20,
+		"slug": "020-stability-and-tipping",
+		"title": {
+			"en": "Stability and Tipping",
+			"ua": "Стійкість і перекидання"
+		}
+	},
+	{
+		"n": 21,
+		"slug": "021-static-and-kinetic-friction-coulombs-model",
+		"title": {
+			"en": "Static and Kinetic Friction (Coulomb's Model)",
+			"ua": "Статичне та кінетичне тертя (модель Кулона)"
+		}
+	},
+	{
+		"n": 22,
+		"slug": "022-coefficient-of-friction-and-the-friction-angle",
+		"title": {
+			"en": "Coefficient of Friction and the Friction Angle",
+			"ua": "Коефіцієнт тертя та кут тертя"
+		}
+	},
+	{
+		"n": 23,
+		"slug": "023-rolling-resistance",
+		"title": {
+			"en": "Rolling Resistance",
+			"ua": "Опір коченню"
+		}
+	},
+	{
+		"n": 24,
+		"slug": "024-friction-on-inclined-planes",
+		"title": {
+			"en": "Friction on Inclined Planes",
+			"ua": "Тертя на похилих площинах"
+		}
+	},
+	{
+		"n": 25,
+		"slug": "025-belt-friction-the-capstan-equation",
+		"title": {
+			"en": "Belt Friction (the Capstan Equation)",
+			"ua": "Тертя паса (рівняння кабестана)"
+		}
+	},
+	{
+		"n": 26,
+		"slug": "026-kinematics-displacement-velocity-and-acceleratio",
+		"title": {
+			"en": "Kinematics: Displacement, Velocity and Acceleration",
+			"ua": "Кінематика: переміщення, швидкість і прискорення"
+		}
+	},
+	{
+		"n": 27,
+		"slug": "027-uniformly-accelerated-motion",
+		"title": {
+			"en": "Uniformly Accelerated Motion",
+			"ua": "Рівноприскорений рух"
+		}
+	},
+	{
+		"n": 28,
+		"slug": "028-projectile-motion",
+		"title": {
+			"en": "Projectile Motion",
+			"ua": "Рух тіла, кинутого під кутом до горизонту"
+		}
+	},
+	{
+		"n": 29,
+		"slug": "029-circular-motion-and-centripetal-acceleration",
+		"title": {
+			"en": "Circular Motion and Centripetal Acceleration",
+			"ua": "Коловий рух і доцентрове прискорення"
+		}
+	},
+	{
+		"n": 30,
+		"slug": "030-angular-velocity-and-angular-acceleration",
+		"title": {
+			"en": "Angular Velocity and Angular Acceleration",
+			"ua": "Кутова швидкість і кутове прискорення"
+		}
+	},
+	{
+		"n": 31,
+		"slug": "031-work",
+		"title": {
+			"en": "Work",
+			"ua": "Робота сили"
+		}
+	},
+	{
+		"n": 32,
+		"slug": "032-kinetic-and-potential-energy",
+		"title": {
+			"en": "Kinetic and Potential Energy",
+			"ua": "Кінетична та потенціальна енергія"
+		}
+	},
+	{
+		"n": 33,
+		"slug": "033-conservation-of-mechanical-energy",
+		"title": {
+			"en": "Conservation of Mechanical Energy",
+			"ua": "Закон збереження механічної енергії"
+		}
+	},
+	{
+		"n": 34,
+		"slug": "034-power-and-efficiency",
+		"title": {
+			"en": "Power and Efficiency",
+			"ua": "Потужність і коефіцієнт корисної дії"
+		}
+	},
+	{
+		"n": 35,
+		"slug": "035-momentum-and-impulse",
+		"title": {
+			"en": "Momentum and Impulse",
+			"ua": "Імпульс тіла та імпульс сили"
+		}
+	},
+	{
+		"n": 36,
+		"slug": "036-collisions-and-the-coefficient-of-restitution",
+		"title": {
+			"en": "Collisions and the Coefficient of Restitution",
+			"ua": "Зіткнення та коефіцієнт відновлення"
+		}
+	},
+	{
+		"n": 37,
+		"slug": "037-moment-of-inertia",
+		"title": {
+			"en": "Moment of Inertia",
+			"ua": "Момент інерції маси"
+		}
+	},
+	{
+		"n": 38,
+		"slug": "038-rotational-dynamics-i",
+		"title": {
+			"en": "Rotational Dynamics (τ = I × α)",
+			"ua": "Динаміка обертального руху (τ = I × α)"
+		}
+	},
+	{
+		"n": 39,
+		"slug": "039-angular-momentum",
+		"title": {
+			"en": "Angular Momentum",
+			"ua": "Момент імпульсу"
+		}
+	},
+	{
+		"n": 40,
+		"slug": "040-rotational-kinetic-energy-and-flywheels",
+		"title": {
+			"en": "Rotational Kinetic Energy and Flywheels",
+			"ua": "Кінетична енергія обертання та маховики"
+		}
+	},
+	{
+		"n": 41,
+		"slug": "041-mechanical-advantage-and-velocity-ratio",
+		"title": {
+			"en": "Mechanical Advantage and Velocity Ratio",
+			"ua": "Механічний виграш у силі та відношення переміщень"
+		}
+	},
+	{
+		"n": 42,
+		"slug": "042-levers-three-classes",
+		"title": {
+			"en": "Levers (Three Classes)",
+			"ua": "Важелі (три роди)"
+		}
+	},
+	{
+		"n": 43,
+		"slug": "043-wheel-and-axle",
+		"title": {
+			"en": "Wheel and Axle",
+			"ua": "Колесо і вісь"
+		}
+	},
+	{
+		"n": 44,
+		"slug": "044-pulleys-and-block-and-tackle-systems",
+		"title": {
+			"en": "Pulleys and Block-and-Tackle Systems",
+			"ua": "Блоки та поліспасти"
+		}
+	},
+	{
+		"n": 45,
+		"slug": "045-the-inclined-plane-and-the-wedge",
+		"title": {
+			"en": "The Inclined Plane and the Wedge",
+			"ua": "Похила площина та клин"
+		}
+	},
+	{
+		"n": 46,
+		"slug": "046-screws-and-lead-screws",
+		"title": {
+			"en": "Screws and Lead Screws",
+			"ua": "Гвинти та ходові гвинти"
+		}
+	},
+	{
+		"n": 47,
+		"slug": "047-gear-fundamentals-teeth-module-and-pitch",
+		"title": {
+			"en": "Gear Fundamentals: Teeth, Module and Pitch",
+			"ua": "Основи зубчастих передач: зубці, модуль і крок"
+		}
+	},
+	{
+		"n": 48,
+		"slug": "048-gear-ratio-and-the-torque-speed-trade-off",
+		"title": {
+			"en": "Gear Ratio and the Torque–Speed Trade-Off",
+			"ua": "Передатне число та співвідношення моменту й швидкості"
+		}
+	},
+	{
+		"n": 49,
+		"slug": "049-gear-trains-simple-and-compound",
+		"title": {
+			"en": "Gear Trains (Simple and Compound)",
+			"ua": "Зубчасті передачі (прості та складені)"
+		}
+	},
+	{
+		"n": 50,
+		"slug": "050-planetary-epicyclic-gears",
+		"title": {
+			"en": "Planetary (Epicyclic) Gears",
+			"ua": "Планетарні (епіциклічні) передачі"
+		}
+	},
+	{
+		"n": 51,
+		"slug": "051-worm-gears-and-self-locking",
+		"title": {
+			"en": "Worm Gears and Self-Locking",
+			"ua": "Черв’ячні передачі та самогальмування"
+		}
+	},
+	{
+		"n": 52,
+		"slug": "052-bevel-and-helical-gears",
+		"title": {
+			"en": "Bevel and Helical Gears",
+			"ua": "Конічні та косозубі передачі"
+		}
+	},
+	{
+		"n": 53,
+		"slug": "053-belt-drives",
+		"title": {
+			"en": "Belt Drives",
+			"ua": "Пасові передачі"
+		}
+	},
+	{
+		"n": 54,
+		"slug": "054-chain-drives",
+		"title": {
+			"en": "Chain Drives",
+			"ua": "Ланцюгові передачі"
+		}
+	},
+	{
+		"n": 55,
+		"slug": "055-shafts-and-torque-transmission",
+		"title": {
+			"en": "Shafts and Torque Transmission",
+			"ua": "Вали та передавання крутного моменту"
+		}
+	},
+	{
+		"n": 56,
+		"slug": "056-couplings",
+		"title": {
+			"en": "Couplings",
+			"ua": "Муфти"
+		}
+	},
+	{
+		"n": 57,
+		"slug": "057-clutches-and-brakes",
+		"title": {
+			"en": "Clutches and Brakes",
+			"ua": "Зчеплення та гальма"
+		}
+	},
+	{
+		"n": 58,
+		"slug": "058-cams-and-followers",
+		"title": {
+			"en": "Cams and Followers",
+			"ua": "Кулачки та штовхачі"
+		}
+	},
+	{
+		"n": 59,
+		"slug": "059-linkages-and-the-four-bar-mechanism",
+		"title": {
+			"en": "Linkages and the Four-Bar Mechanism",
+			"ua": "Важільні механізми та чотириланковик"
+		}
+	},
+	{
+		"n": 60,
+		"slug": "060-ratchets-pawls-and-escapements",
+		"title": {
+			"en": "Ratchets, Pawls and Escapements",
+			"ua": "Храповики, собачки та спускові механізми"
+		}
+	},
+	{
+		"n": 61,
+		"slug": "061-stress-and-strain",
+		"title": {
+			"en": "Stress and Strain",
+			"ua": "Напруження та деформація"
+		}
+	},
+	{
+		"n": 62,
+		"slug": "062-hookes-law-and-youngs-modulus",
+		"title": {
+			"en": "Hooke's Law and Young's Modulus",
+			"ua": "Закон Гука та модуль Юнга"
+		}
+	},
+	{
+		"n": 63,
+		"slug": "063-the-stress-strain-curve",
+		"title": {
+			"en": "The Stress–Strain Curve",
+			"ua": "Діаграма напруження–деформація"
+		}
+	},
+	{
+		"n": 64,
+		"slug": "064-elastic-and-plastic-deformation",
+		"title": {
+			"en": "Elastic and Plastic Deformation",
+			"ua": "Пружна та пластична деформація"
+		}
+	},
+	{
+		"n": 65,
+		"slug": "065-tension-and-compression",
+		"title": {
+			"en": "Tension and Compression",
+			"ua": "Розтяг і стиск"
+		}
+	},
+	{
+		"n": 66,
+		"slug": "066-shear-stress-and-shear-strain",
+		"title": {
+			"en": "Shear Stress and Shear Strain",
+			"ua": "Дотичне напруження та зсувна деформація"
+		}
+	},
+	{
+		"n": 67,
+		"slug": "067-torsion-of-shafts",
+		"title": {
+			"en": "Torsion of Shafts",
+			"ua": "Кручення валів"
+		}
+	},
+	{
+		"n": 68,
+		"slug": "068-bending-of-beams",
+		"title": {
+			"en": "Bending of Beams",
+			"ua": "Згин балок"
+		}
+	},
+	{
+		"n": 69,
+		"slug": "069-shear-force-and-bending-moment-diagrams",
+		"title": {
+			"en": "Shear Force and Bending Moment Diagrams",
+			"ua": "Епюри поперечної сили та згинального моменту"
+		}
+	},
+	{
+		"n": 70,
+		"slug": "070-second-moment-of-area",
+		"title": {
+			"en": "Second Moment of Area",
+			"ua": "Другий момент площі"
+		}
+	},
+	{
+		"n": 71,
+		"slug": "071-beam-deflection",
+		"title": {
+			"en": "Beam Deflection",
+			"ua": "Прогин балок"
+		}
+	},
+	{
+		"n": 72,
+		"slug": "072-buckling-of-columns-eulers-formula",
+		"title": {
+			"en": "Buckling of Columns (Euler's Formula)",
+			"ua": "Втрата стійкості стрижнів (формула Ейлера)"
+		}
+	},
+	{
+		"n": 73,
+		"slug": "073-factor-of-safety",
+		"title": {
+			"en": "Factor of Safety",
+			"ua": "Коефіцієнт запасу міцності"
+		}
+	},
+	{
+		"n": 74,
+		"slug": "074-stress-concentration",
+		"title": {
+			"en": "Stress Concentration",
+			"ua": "Концентрація напружень"
+		}
+	},
+	{
+		"n": 75,
+		"slug": "075-fatigue-and-the-s-n-curve",
+		"title": {
+			"en": "Fatigue and the S–N Curve",
+			"ua": "Втома матеріалів та крива S–N"
+		}
+	},
+	{
+		"n": 76,
+		"slug": "076-creep-and-temperature-effects",
+		"title": {
+			"en": "Creep and Temperature Effects",
+			"ua": "Повзучість і вплив температури"
+		}
+	},
+	{
+		"n": 77,
+		"slug": "077-hardness-and-toughness",
+		"title": {
+			"en": "Hardness and Toughness",
+			"ua": "Твердість і в’язкість руйнування"
+		}
+	},
+	{
+		"n": 78,
+		"slug": "078-material-classes-metals-polymers-ceramics-and-co",
+		"title": {
+			"en": "Material Classes: Metals, Polymers, Ceramics and Composites",
+			"ua": "Класи матеріалів: метали, полімери, кераміка та композити"
+		}
+	},
+	{
+		"n": 79,
+		"slug": "079-steel-and-heat-treatment-basics",
+		"title": {
+			"en": "Steel and Heat Treatment Basics",
+			"ua": "Сталь та основи термічної обробки"
+		}
+	},
+	{
+		"n": 80,
+		"slug": "080-thermal-expansion",
+		"title": {
+			"en": "Thermal Expansion",
+			"ua": "Теплове розширення"
+		}
+	},
+	{
+		"n": 81,
+		"slug": "081-the-engineering-design-process",
+		"title": {
+			"en": "The Engineering Design Process",
+			"ua": "Процес інженерного проєктування"
+		}
+	},
+	{
+		"n": 82,
+		"slug": "082-tolerances-and-fits",
+		"title": {
+			"en": "Tolerances and Fits",
+			"ua": "Допуски та посадки"
+		}
+	},
+	{
+		"n": 83,
+		"slug": "083-bearings-plain-and-rolling",
+		"title": {
+			"en": "Bearings: Plain and Rolling",
+			"ua": "Підшипники ковзання та кочення"
+		}
+	},
+	{
+		"n": 84,
+		"slug": "084-lubrication-and-wear",
+		"title": {
+			"en": "Lubrication and Wear",
+			"ua": "Мащення та зношування"
+		}
+	},
+	{
+		"n": 85,
+		"slug": "085-threaded-fasteners-and-bolt-preload",
+		"title": {
+			"en": "Threaded Fasteners and Bolt Preload",
+			"ua": "Різьбові кріплення та попередній натяг болтів"
+		}
+	},
+	{
+		"n": 86,
+		"slug": "086-welded-riveted-and-adhesive-joints",
+		"title": {
+			"en": "Welded, Riveted and Adhesive Joints",
+			"ua": "Зварні, заклепкові та клейові з’єднання"
+		}
+	},
+	{
+		"n": 87,
+		"slug": "087-springs",
+		"title": {
+			"en": "Springs",
+			"ua": "Пружини"
+		}
+	},
+	{
+		"n": 88,
+		"slug": "088-keys-splines-and-pins",
+		"title": {
+			"en": "Keys, Splines and Pins",
+			"ua": "Шпонки, шліци та штифти"
+		}
+	},
+	{
+		"n": 89,
+		"slug": "089-vibration-and-natural-frequency",
+		"title": {
+			"en": "Vibration and Natural Frequency",
+			"ua": "Вібрації та власна частота"
+		}
+	},
+	{
+		"n": 90,
+		"slug": "090-damping",
+		"title": {
+			"en": "Damping",
+			"ua": "Демпфування"
+		}
+	},
+	{
+		"n": 91,
+		"slug": "091-balancing-of-rotating-parts",
+		"title": {
+			"en": "Balancing of Rotating Parts",
+			"ua": "Балансування обертових деталей"
+		}
+	},
+	{
+		"n": 92,
+		"slug": "092-hydraulics-and-pascals-law",
+		"title": {
+			"en": "Hydraulics and Pascal's Law",
+			"ua": "Гідравліка та закон Паскаля"
+		}
+	},
+	{
+		"n": 93,
+		"slug": "093-pneumatics",
+		"title": {
+			"en": "Pneumatics",
+			"ua": "Пневматика"
+		}
+	},
+	{
+		"n": 94,
+		"slug": "094-fluid-statics-pressure-and-buoyancy",
+		"title": {
+			"en": "Fluid Statics: Pressure and Buoyancy",
+			"ua": "Гідростатика: тиск і плавучість"
+		}
+	},
+	{
+		"n": 95,
+		"slug": "095-internal-combustion-engines-the-four-stroke-cycl",
+		"title": {
+			"en": "Internal Combustion Engines (the Four-Stroke Cycle)",
+			"ua": "Двигуни внутрішнього згоряння (чотиритактний цикл)"
+		}
+	},
+	{
+		"n": 96,
+		"slug": "096-electric-motors-as-mechanical-drives",
+		"title": {
+			"en": "Electric Motors as Mechanical Drives",
+			"ua": "Електродвигуни як механічні приводи"
+		}
+	},
+	{
+		"n": 97,
+		"slug": "097-engineering-drawings-and-views",
+		"title": {
+			"en": "Engineering Drawings and Views",
+			"ua": "Інженерні креслення та проєкції"
+		}
+	},
+	{
+		"n": 98,
+		"slug": "098-measuring-tools-calipers-and-micrometers",
+		"title": {
+			"en": "Measuring Tools: Calipers and Micrometers",
+			"ua": "Вимірювальні інструменти: штангенциркулі та мікрометри"
+		}
+	},
+	{
+		"n": 99,
+		"slug": "099-manufacturing-processes-machining-casting-and-3d",
+		"title": {
+			"en": "Manufacturing Processes: Machining, Casting and 3D Printing",
+			"ua": "Виробничі процеси: механічна обробка, лиття та 3D-друк"
+		}
+	},
+	{
+		"n": 100,
+		"slug": "100-failure-analysis-and-troubleshooting-machines",
+		"title": {
+			"en": "Failure Analysis and Troubleshooting Machines",
+			"ua": "Аналіз відмов і діагностика машин"
+		}
+	}
+]

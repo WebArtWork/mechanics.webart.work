@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mechanics | Learn how machines work, in 100 theories</title>
+		<base href="/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<script>
+			try {
+				const storedMode = localStorage.getItem('app-mode');
+				const preferredMode =
+					storedMode === 'dark' || storedMode === 'light'
+						? storedMode
+						: window.matchMedia('(prefers-color-scheme: dark)').matches
+							? 'dark'
+							: 'light';
+				document.documentElement.setAttribute('data-mode', preferredMode);
+			} catch {}
+		</script>
+
+		<meta
+			name="description"
+			content="100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian."
+		/>
+		<meta name="author" content="Mechanics" />
+		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#f5f6f8" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#0f0f11" media="(prefers-color-scheme: dark)" />
+
+		<meta itemprop="name" content="Mechanics | Learn how machines work, in 100 theories" />
+		<meta
+			itemprop="description"
+			content="100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian."
+		/>
+		<meta itemprop="image" content="https://mechanics.webart.work/seo/default.jpg" />
+
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Mechanics" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:url" content="https://mechanics.webart.work/" />
+		<meta
+			property="og:title"
+			content="Mechanics | Learn how machines work, in 100 theories"
+		/>
+		<meta
+			property="og:description"
+			content="100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian."
+		/>
+		<meta property="og:image" content="https://mechanics.webart.work/seo/default.jpg" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:type" content="image/jpeg" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="Mechanics | Learn how machines work, in 100 theories"
+		/>
+		<meta
+			name="twitter:description"
+			content="100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian."
+		/>
+		<meta name="twitter:image" content="https://mechanics.webart.work/seo/default.jpg" />
+		<meta name="twitter:image:src" content="https://mechanics.webart.work/seo/default.jpg" />
+
+		<link rel="canonical" href="https://mechanics.webart.work/" />
+		<link rel="icon" type="image/x-icon" href="favicon.png" />
+		<!-- without scripts nothing would ever remove the splash screen -->
+		<noscript><style>.splash { display: none !important; }</style></noscript>
+
+	</head>
+	<body>
+		<app-root></app-root>
+	</body>
+</html>

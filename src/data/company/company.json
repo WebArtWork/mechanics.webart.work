@@ -1,0 +1,556 @@
+{
+	"_id": "",
+	"name": "Mechanics",
+	"title": "Mechanics | Learn how machines work, in 100 theories",
+	"description": "100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian.",
+	"image": "https://mechanics.webart.work/logo.png",
+	"siteUrl": "https://mechanics.webart.work",
+	"defaultSeo": {
+		"image": "/seo/default.jpg"
+	},
+	"pageSeo": {
+		"/": {
+			"title": "Mechanics | Learn how machines work, in 100 theories",
+			"description": "100 short theories of mechanics, from forces and statics to gears, materials and machine design. Each has a short version and a full one with a worked example, in English and Ukrainian.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory": {
+			"title": "Mechanics theories",
+			"description": "All 100 mechanics theories in 12 topics: forces, statics, friction, motion, energy, rotation, simple machines, gears, drives, strength of materials, machine design and fluid power.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/print/short": {
+			"title": "Print short theories",
+			"description": "All short mechanics theories in one printable document.",
+			"image": "/seo/default.jpg",
+			"robots": "noindex, nofollow"
+		},
+		"/theory/print/full": {
+			"title": "Print full theories",
+			"description": "All full mechanics theories in one printable document.",
+			"image": "/seo/default.jpg",
+			"robots": "noindex, nofollow"
+		},
+		"/privacy": {
+			"title": "Privacy policy",
+			"description": "What Mechanics stores, why it stores it, which services it uses and how to delete your account and all of your data.",
+			"image": "/seo/default.jpg"
+		},
+		"/support": {
+			"title": "Support",
+			"description": "Get help with Mechanics: contact us, report a bug or delete your account and data.",
+			"image": "/seo/default.jpg"
+		},
+		"/licenses": {
+			"title": "Licenses and credits",
+			"description": "Mechanics is free software under the GPL-3.0. See its source code and the projects it builds on.",
+			"image": "/seo/default.jpg"
+		},
+		"/sign-in": {
+			"title": "Sign in",
+			"description": "Sign in to Mechanics with your Google or Apple account.",
+			"image": "/seo/default.jpg",
+			"robots": "noindex, nofollow"
+		},
+		"/theory/001-scalars-and-vectors": {
+			"title": "Scalars and Vectors: mechanics theory",
+			"description": "A scalar has magnitude only; a vector also has direction. This distinction determines how loads and motions combine. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/002-force-and-its-units": {
+			"title": "Force and Its Units: mechanics theory",
+			"description": "Force describes an interaction that can change motion or deform a part. The newton connects force to mass and acceleration. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/003-newtons-first-law-inertia": {
+			"title": "Newton's First Law (Inertia): mechanics theory",
+			"description": "A body retains constant velocity unless a net external force acts. Inertia explains why supports and restraints matter during sudden stops. In machine design, this helps predict loads, select…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/004-newtons-second-law-f-m-a": {
+			"title": "Newton's Second Law (F = m × a): mechanics theory",
+			"description": "The acceleration of an object is determined by its net force and mass. This law sizes actuators and predicts motion. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/005-newtons-third-law-action-and-reaction": {
+			"title": "Newton's Third Law (Action and Reaction): mechanics theory",
+			"description": "Interacting bodies exert equal and opposite forces on one another. The forces act on different bodies and therefore do not cancel on one free-body diagram. In machine design, this helps predict…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/006-free-body-diagrams": {
+			"title": "Free-Body Diagrams: mechanics theory",
+			"description": "A free-body diagram isolates a component and shows all external forces and moments. It is the foundation of reliable equilibrium equations. In machine design, this helps predict loads, select…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/007-resolving-forces-into-components": {
+			"title": "Resolving Forces into Components: mechanics theory",
+			"description": "An inclined force can be replaced by perpendicular components without changing its physical effect at the application point. Components simplify equilibrium equations. In machine design, this…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/008-resultant-force-and-vector-addition": {
+			"title": "Resultant Force and Vector Addition: mechanics theory",
+			"description": "Several forces can be replaced by their vector sum for translational motion. This reveals the net push and its direction. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/009-equilibrium-of-a-particle": {
+			"title": "Equilibrium of a Particle: mechanics theory",
+			"description": "A particle is in static equilibrium when its force vector sum is zero. The model is useful at cable connections and ideal pin joints. In machine design, this helps predict loads, select components…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/010-moment-of-a-force-torque": {
+			"title": "Moment of a Force (Torque): mechanics theory",
+			"description": "A force creates a turning effect about a point or axis. Torque is central to levers, shafts and fasteners. In machine design, this helps predict loads, select components and avoid incorrect…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/011-equilibrium-of-a-rigid-body": {
+			"title": "Equilibrium of a Rigid Body: mechanics theory",
+			"description": "A rigid body remains at rest when both net force and net moment vanish. This extends particle equilibrium to beams and brackets. In machine design, this helps predict loads, select components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/012-couples-and-pure-moments": {
+			"title": "Couples and Pure Moments: mechanics theory",
+			"description": "Two equal opposite parallel forces separated by distance form a couple. The pair creates rotation without net force. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/013-center-of-gravity-and-center-of-mass": {
+			"title": "Center of Gravity and Center of Mass: mechanics theory",
+			"description": "The center of mass locates the mass-weighted mean position. Under uniform gravity it coincides with the center of gravity. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/014-centroids-of-areas": {
+			"title": "Centroids of Areas: mechanics theory",
+			"description": "An area centroid gives the geometric center of a flat shape. It is needed for beam sections and distributed loads. In machine design, this helps predict loads, select components and avoid…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/015-support-reactions": {
+			"title": "Support Reactions: mechanics theory",
+			"description": "Supports prevent selected motions and therefore exert reaction forces or moments. Correct support modeling is essential for beam analysis. In machine design, this helps predict loads, select…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/016-trusses-the-method-of-joints": {
+			"title": "Trusses: the Method of Joints: mechanics theory",
+			"description": "The method of joints finds axial member forces by balancing each truss pin. It works efficiently when many member forces are needed. In machine design, this helps predict loads, select components…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/017-trusses-the-method-of-sections": {
+			"title": "Trusses: the Method of Sections: mechanics theory",
+			"description": "The method of sections cuts through a truss and solves selected member forces without analyzing every joint. It is efficient for one or two target members. In machine design, this helps predict…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/018-frames-and-machines": {
+			"title": "Frames and Machines: mechanics theory",
+			"description": "Frames carry loads through members with multiple forces, while machines transmit forces to produce useful motion. Both require member-by-member diagrams. In machine design, this helps predict…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/019-distributed-loads": {
+			"title": "Distributed Loads: mechanics theory",
+			"description": "A distributed load acts continuously along a length rather than at one point. Its equivalent resultant helps calculate reactions. In machine design, this helps predict loads, select components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/020-stability-and-tipping": {
+			"title": "Stability and Tipping: mechanics theory",
+			"description": "An object tips when the resultant load passes beyond its support footprint. Stability depends on geometry, center of mass and external loads. In machine design, this helps predict loads, select…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/021-static-and-kinetic-friction-coulombs-model": {
+			"title": "Static and Kinetic Friction (Coulomb's Model): mechanics theory",
+			"description": "Dry contact resists sliding: static friction adjusts up to a limit, whereas kinetic friction acts during sliding. It helps engineers estimate forces, motion or energy before choosing components…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/022-coefficient-of-friction-and-the-friction-angle": {
+			"title": "Coefficient of Friction and the Friction Angle: mechanics theory",
+			"description": "The coefficient describes friction relative to normal force; the friction angle expresses the same limit geometrically. It helps engineers estimate forces, motion or energy before choosing…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/023-rolling-resistance": {
+			"title": "Rolling Resistance: mechanics theory",
+			"description": "A rolling wheel loses energy through tire deformation, ground deformation and contact hysteresis. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/024-friction-on-inclined-planes": {
+			"title": "Friction on Inclined Planes: mechanics theory",
+			"description": "Gravity splits into a component along the slope and one normal to it; friction opposes impending or actual sliding. It helps engineers estimate forces, motion or energy before choosing components…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/025-belt-friction-the-capstan-equation": {
+			"title": "Belt Friction (the Capstan Equation): mechanics theory",
+			"description": "A flexible rope or belt wrapped around a drum can sustain a tension difference through distributed friction. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/026-kinematics-displacement-velocity-and-acceleratio": {
+			"title": "Kinematics: Displacement, Velocity and Acceleration: mechanics theory",
+			"description": "Kinematics describes how position changes with time without asking what forces cause the motion. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/027-uniformly-accelerated-motion": {
+			"title": "Uniformly Accelerated Motion: mechanics theory",
+			"description": "When acceleration is constant, velocity changes linearly with time and displacement changes quadratically. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/028-projectile-motion": {
+			"title": "Projectile Motion: mechanics theory",
+			"description": "Without air drag, horizontal velocity stays constant while vertical motion accelerates downward due to gravity. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/029-circular-motion-and-centripetal-acceleration": {
+			"title": "Circular Motion and Centripetal Acceleration: mechanics theory",
+			"description": "Even at constant speed, circular motion requires inward acceleration because the velocity direction continuously changes. It helps engineers estimate forces, motion or energy before choosing…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/030-angular-velocity-and-angular-acceleration": {
+			"title": "Angular Velocity and Angular Acceleration: mechanics theory",
+			"description": "Angular velocity measures rotation rate, while angular acceleration measures how quickly that rate changes. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/031-work": {
+			"title": "Work: mechanics theory",
+			"description": "A force transfers mechanical energy when its point of application moves along a displacement. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/032-kinetic-and-potential-energy": {
+			"title": "Kinetic and Potential Energy: mechanics theory",
+			"description": "Kinetic energy depends on motion; gravitational potential energy depends on height relative to a chosen datum. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/033-conservation-of-mechanical-energy": {
+			"title": "Conservation of Mechanical Energy: mechanics theory",
+			"description": "If only conservative forces do work, the sum of kinetic and potential energies stays constant. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/034-power-and-efficiency": {
+			"title": "Power and Efficiency: mechanics theory",
+			"description": "Power measures energy transfer per second, while efficiency compares useful output with input. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/035-momentum-and-impulse": {
+			"title": "Momentum and Impulse: mechanics theory",
+			"description": "Momentum measures translational motion; impulse equals the change in momentum caused by force over time. It helps engineers estimate forces, motion or energy before choosing components and testing…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/036-collisions-and-the-coefficient-of-restitution": {
+			"title": "Collisions and the Coefficient of Restitution: mechanics theory",
+			"description": "Momentum is conserved for an isolated collision; restitution describes relative separation speed compared with approach speed. It helps engineers estimate forces, motion or energy before choosing…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/037-moment-of-inertia": {
+			"title": "Moment of Inertia: mechanics theory",
+			"description": "Mass moment of inertia measures how strongly a body resists changes in angular speed around a specified axis. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/038-rotational-dynamics-i": {
+			"title": "Rotational Dynamics (τ = I × α): mechanics theory",
+			"description": "A net torque changes angular motion; for a fixed axis and constant inertia, torque equals inertia times angular acceleration. It helps engineers estimate forces, motion or energy before choosing…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/039-angular-momentum": {
+			"title": "Angular Momentum: mechanics theory",
+			"description": "Angular momentum describes rotational motion and changes only when external torque acts. It helps engineers estimate forces, motion or energy before choosing components and testing a design.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/040-rotational-kinetic-energy-and-flywheels": {
+			"title": "Rotational Kinetic Energy and Flywheels: mechanics theory",
+			"description": "A flywheel stores energy in rotation and can smooth short variations between driving and resisting torque. It helps engineers estimate forces, motion or energy before choosing components and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/041-mechanical-advantage-and-velocity-ratio": {
+			"title": "Mechanical Advantage and Velocity Ratio: mechanics theory",
+			"description": "Mechanical Advantage and Velocity Ratio describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/042-levers-three-classes": {
+			"title": "Levers (Three Classes): mechanics theory",
+			"description": "Levers (Three Classes) describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/043-wheel-and-axle": {
+			"title": "Wheel and Axle: mechanics theory",
+			"description": "Wheel and Axle describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/044-pulleys-and-block-and-tackle-systems": {
+			"title": "Pulleys and Block-and-Tackle Systems: mechanics theory",
+			"description": "Pulleys and Block-and-Tackle Systems describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/045-the-inclined-plane-and-the-wedge": {
+			"title": "The Inclined Plane and the Wedge: mechanics theory",
+			"description": "The Inclined Plane and the Wedge describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/046-screws-and-lead-screws": {
+			"title": "Screws and Lead Screws: mechanics theory",
+			"description": "Screws and Lead Screws describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/047-gear-fundamentals-teeth-module-and-pitch": {
+			"title": "Gear Fundamentals: Teeth, Module and Pitch: mechanics theory",
+			"description": "Gear Fundamentals: Teeth, Module and Pitch describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/048-gear-ratio-and-the-torque-speed-trade-off": {
+			"title": "Gear Ratio and the Torque–Speed Trade-Off: mechanics theory",
+			"description": "Gear Ratio and the Torque–Speed Trade-Off describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/049-gear-trains-simple-and-compound": {
+			"title": "Gear Trains (Simple and Compound): mechanics theory",
+			"description": "Gear Trains (Simple and Compound) describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/050-planetary-epicyclic-gears": {
+			"title": "Planetary (Epicyclic) Gears: mechanics theory",
+			"description": "Planetary (Epicyclic) Gears describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/051-worm-gears-and-self-locking": {
+			"title": "Worm Gears and Self-Locking: mechanics theory",
+			"description": "Worm Gears and Self-Locking describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/052-bevel-and-helical-gears": {
+			"title": "Bevel and Helical Gears: mechanics theory",
+			"description": "Bevel and Helical Gears describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/053-belt-drives": {
+			"title": "Belt Drives: mechanics theory",
+			"description": "Belt Drives describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/054-chain-drives": {
+			"title": "Chain Drives: mechanics theory",
+			"description": "Chain Drives describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/055-shafts-and-torque-transmission": {
+			"title": "Shafts and Torque Transmission: mechanics theory",
+			"description": "Shafts and Torque Transmission describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/056-couplings": {
+			"title": "Couplings: mechanics theory",
+			"description": "Couplings describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/057-clutches-and-brakes": {
+			"title": "Clutches and Brakes: mechanics theory",
+			"description": "Clutches and Brakes describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/058-cams-and-followers": {
+			"title": "Cams and Followers: mechanics theory",
+			"description": "Cams and Followers describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/059-linkages-and-the-four-bar-mechanism": {
+			"title": "Linkages and the Four-Bar Mechanism: mechanics theory",
+			"description": "Linkages and the Four-Bar Mechanism describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/060-ratchets-pawls-and-escapements": {
+			"title": "Ratchets, Pawls and Escapements: mechanics theory",
+			"description": "Ratchets, Pawls and Escapements describes a way to control forces or motion in a mechanical assembly. It helps designers estimate performance and choose workable component sizes.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/061-stress-and-strain": {
+			"title": "Stress and Strain: mechanics theory",
+			"description": "Stress and Strain explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/062-hookes-law-and-youngs-modulus": {
+			"title": "Hooke's Law and Young's Modulus: mechanics theory",
+			"description": "Hooke's Law and Young's Modulus explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/063-the-stress-strain-curve": {
+			"title": "The Stress–Strain Curve: mechanics theory",
+			"description": "The Stress–Strain Curve explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/064-elastic-and-plastic-deformation": {
+			"title": "Elastic and Plastic Deformation: mechanics theory",
+			"description": "Elastic and Plastic Deformation explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/065-tension-and-compression": {
+			"title": "Tension and Compression: mechanics theory",
+			"description": "Tension and Compression explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/066-shear-stress-and-shear-strain": {
+			"title": "Shear Stress and Shear Strain: mechanics theory",
+			"description": "Shear Stress and Shear Strain explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/067-torsion-of-shafts": {
+			"title": "Torsion of Shafts: mechanics theory",
+			"description": "Torsion of Shafts explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/068-bending-of-beams": {
+			"title": "Bending of Beams: mechanics theory",
+			"description": "Bending of Beams explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/069-shear-force-and-bending-moment-diagrams": {
+			"title": "Shear Force and Bending Moment Diagrams: mechanics theory",
+			"description": "Shear Force and Bending Moment Diagrams explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/070-second-moment-of-area": {
+			"title": "Second Moment of Area: mechanics theory",
+			"description": "Second Moment of Area explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/071-beam-deflection": {
+			"title": "Beam Deflection: mechanics theory",
+			"description": "Beam Deflection explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/072-buckling-of-columns-eulers-formula": {
+			"title": "Buckling of Columns (Euler's Formula): mechanics theory",
+			"description": "Buckling of Columns (Euler's Formula) explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/073-factor-of-safety": {
+			"title": "Factor of Safety: mechanics theory",
+			"description": "Factor of Safety explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/074-stress-concentration": {
+			"title": "Stress Concentration: mechanics theory",
+			"description": "Stress Concentration explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/075-fatigue-and-the-s-n-curve": {
+			"title": "Fatigue and the S–N Curve: mechanics theory",
+			"description": "Fatigue and the S–N Curve explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/076-creep-and-temperature-effects": {
+			"title": "Creep and Temperature Effects: mechanics theory",
+			"description": "Creep and Temperature Effects explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/077-hardness-and-toughness": {
+			"title": "Hardness and Toughness: mechanics theory",
+			"description": "Hardness and Toughness explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/078-material-classes-metals-polymers-ceramics-and-co": {
+			"title": "Material Classes: Metals, Polymers, Ceramics and Composites: mechanics theory",
+			"description": "Material Classes: Metals, Polymers, Ceramics and Composites explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/079-steel-and-heat-treatment-basics": {
+			"title": "Steel and Heat Treatment Basics: mechanics theory",
+			"description": "Steel and Heat Treatment Basics explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/080-thermal-expansion": {
+			"title": "Thermal Expansion: mechanics theory",
+			"description": "Thermal Expansion explains how a material or structural element responds to a specified mechanical condition. It helps engineers predict behavior and avoid unreliable machine designs.",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/081-the-engineering-design-process": {
+			"title": "The Engineering Design Process: mechanics theory",
+			"description": "The Engineering Design Process describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/082-tolerances-and-fits": {
+			"title": "Tolerances and Fits: mechanics theory",
+			"description": "Tolerances and Fits describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about performance,…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/083-bearings-plain-and-rolling": {
+			"title": "Bearings: Plain and Rolling: mechanics theory",
+			"description": "Bearings: Plain and Rolling describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/084-lubrication-and-wear": {
+			"title": "Lubrication and Wear: mechanics theory",
+			"description": "Lubrication and Wear describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about performance,…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/085-threaded-fasteners-and-bolt-preload": {
+			"title": "Threaded Fasteners and Bolt Preload: mechanics theory",
+			"description": "Threaded Fasteners and Bolt Preload describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/086-welded-riveted-and-adhesive-joints": {
+			"title": "Welded, Riveted and Adhesive Joints: mechanics theory",
+			"description": "Welded, Riveted and Adhesive Joints describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/087-springs": {
+			"title": "Springs: mechanics theory",
+			"description": "Springs describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about performance, reliability…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/088-keys-splines-and-pins": {
+			"title": "Keys, Splines and Pins: mechanics theory",
+			"description": "Keys, Splines and Pins describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/089-vibration-and-natural-frequency": {
+			"title": "Vibration and Natural Frequency: mechanics theory",
+			"description": "Vibration and Natural Frequency describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/090-damping": {
+			"title": "Damping: mechanics theory",
+			"description": "Damping describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about performance, reliability…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/091-balancing-of-rotating-parts": {
+			"title": "Balancing of Rotating Parts: mechanics theory",
+			"description": "Balancing of Rotating Parts describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/092-hydraulics-and-pascals-law": {
+			"title": "Hydraulics and Pascal's Law: mechanics theory",
+			"description": "Hydraulics and Pascal's Law describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/093-pneumatics": {
+			"title": "Pneumatics: mechanics theory",
+			"description": "Pneumatics describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about performance,…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/094-fluid-statics-pressure-and-buoyancy": {
+			"title": "Fluid Statics: Pressure and Buoyancy: mechanics theory",
+			"description": "Fluid Statics: Pressure and Buoyancy describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/095-internal-combustion-engines-the-four-stroke-cycl": {
+			"title": "Internal Combustion Engines (the Four-Stroke Cycle): mechanics theory",
+			"description": "Internal Combustion Engines (the Four-Stroke Cycle) describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/096-electric-motors-as-mechanical-drives": {
+			"title": "Electric Motors as Mechanical Drives: mechanics theory",
+			"description": "Electric Motors as Mechanical Drives describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/097-engineering-drawings-and-views": {
+			"title": "Engineering Drawings and Views: mechanics theory",
+			"description": "Engineering Drawings and Views describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to decisions about…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/098-measuring-tools-calipers-and-micrometers": {
+			"title": "Measuring Tools: Calipers and Micrometers: mechanics theory",
+			"description": "Measuring Tools: Calipers and Micrometers describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/099-manufacturing-processes-machining-casting-and-3d": {
+			"title": "Manufacturing Processes: Machining, Casting and 3D Printing: mechanics theory",
+			"description": "Manufacturing Processes: Machining, Casting and 3D Printing describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable…",
+			"image": "/seo/default.jpg"
+		},
+		"/theory/100-failure-analysis-and-troubleshooting-machines": {
+			"title": "Failure Analysis and Troubleshooting Machines: mechanics theory",
+			"description": "Failure Analysis and Troubleshooting Machines describes a practical principle used to analyze, manufacture or maintain mechanical systems. It matters because it links measurable quantities to…",
+			"image": "/seo/default.jpg"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+<section class="mx-auto flex w-full max-w-2xl flex-col gap-4 px-4 pb-8 pt-4 sm:px-6">
+	<h1 class="sr-only md:not-sr-only md:text-xl md:font-semibold md:tracking-tight">{{ 'Theory' | t }}</h1>
+
+	<details class="ds-card">
+		<summary class="cursor-pointer px-4 py-3 text-sm font-medium">{{ 'How to use these theories' | t }}</summary>
+		<div class="flex flex-col gap-2 px-4 pb-4 text-sm text-mute">
+			@for (paragraph of intro; track $index) {
+				<p>{{ paragraph | t }}</p>
+			}
+		</div>
+	</details>
+
+	<div class="flex flex-wrap items-center justify-between gap-3">
+		<p class="text-sm text-mute" role="status">{{ '{done} of {total} studied' | t: { done: studiedCount(), total: total } }}</p>
+		<div class="flex flex-wrap gap-2">
+			<a class="ds-btn ds-btn-outline" routerLink="/theory/print/short">{{ 'Print short theories' | t }}</a>
+			<a class="ds-btn ds-btn-outline" routerLink="/theory/print/full">{{ 'Print full theories' | t }}</a>
+		</div>
+	</div>
+
+	@for (group of groups(); track group.id) {
+		<section class="mt-2 flex flex-col gap-3" [attr.aria-labelledby]="'group-' + group.id">
+			<h2 [id]="'group-' + group.id" class="m-0! text-base font-semibold">{{ group.label | t }}</h2>
+			<ul class="divide-y divide-line overflow-hidden rounded-xl border border-line bg-card">
+				@for (card of group.cards; track card.slug) {
+					<li>
+						<a class="flex items-center gap-4 px-4 py-3.5 text-fg! no-underline hover:bg-soft" [routerLink]="['/theory', card.slug]">
+							<span class="w-7 shrink-0 text-sm tabular-nums text-mute">{{ card.n }}</span>
+							<span class="min-w-0 flex-1 font-semibold leading-snug">{{ card.title }}</span>
+							@if (card.studied) {
+								<span class="ds-badge ds-badge-safe">{{ 'Studied' | t }}</span>
+							}
+						</a>
+					</li>
+				}
+			</ul>
+		</section>
+	}
+</section>

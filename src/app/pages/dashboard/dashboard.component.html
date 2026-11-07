@@ -1,0 +1,78 @@
+<section class="mx-auto flex w-full max-w-[72rem] flex-col gap-8 px-4 pb-10 pt-4 sm:px-6">
+	@if (ready() && isGuest()) {
+		<div class="flex flex-col gap-3">
+			<h1 class="text-2xl font-semibold tracking-tight sm:text-3xl">{{ 'Understand how machines work' | t }}</h1>
+			<p class="max-w-2xl text-mute">
+				{{ '{n} theories, from forces to gears and machine design. Each has a short version and a full one with an example.' | t: { n: total } }}
+			</p>
+			<div class="flex flex-wrap gap-2">
+				<a class="ds-btn ds-btn-primary ds-btn-lg" [routerLink]="['/theory', sample.slug]">{{ 'Start with the first theory' | t }}</a>
+				<a class="ds-btn ds-btn-outline ds-btn-lg" routerLink="/theory">{{ 'Browse all theories' | t }}</a>
+			</div>
+		</div>
+
+		<section class="ds-card max-w-2xl gap-3 p-5" aria-labelledby="sample-title">
+			<h2 id="sample-title" class="m-0! text-xl font-semibold tracking-tight">{{ sample.title[lang()] }}</h2>
+			<p class="text-sm text-mute">{{ 'Sample theory' | t }} · #{{ sample.n }}</p>
+			<p class="leading-relaxed">{{ sample.short[lang()] }}</p>
+			<div>
+				<a class="ds-btn ds-btn-outline" [routerLink]="['/theory', sample.slug]">{{ 'Read this theory' | t }}</a>
+			</div>
+		</section>
+	} @else if (ready()) {
+		<div>
+			<h1 class="text-xl font-semibold tracking-tight">{{ 'Dashboard' | t }}</h1>
+			<p class="mt-0.5 text-sm text-mute">{{ 'Your progress through the mechanics theories.' | t }}</p>
+		</div>
+
+		<div class="grid gap-6 lg:grid-cols-[1fr_1.4fr] lg:items-start">
+			<div class="flex flex-col gap-6">
+				<section class="ds-card gap-4 p-5" aria-labelledby="next-title">
+					@if (next(); as theory) {
+						<div>
+							<p class="text-sm font-medium text-mute">{{ 'Next theory' | t }} · {{ nextGroup() | t }}</p>
+							<h2 id="next-title" class="m-0! mt-1! text-xl font-semibold tracking-tight">{{ theory.n }}. {{ theory.title[lang()] }}</h2>
+							<p class="mt-2 line-clamp-3 text-mute">{{ theory.short[lang()] }}</p>
+						</div>
+						<div>
+							<a class="ds-btn ds-btn-primary" [routerLink]="['/theory', theory.slug]">{{ 'Continue' | t }}</a>
+						</div>
+					} @else {
+						<h2 id="next-title" class="m-0! text-xl font-semibold tracking-tight">{{ 'All theories studied' | t }}</h2>
+						<p class="text-mute">{{ 'You have been through every theory. Come back to any of them to review.' | t }}</p>
+						<div>
+							<a class="ds-btn ds-btn-outline" routerLink="/theory">{{ 'Browse all theories' | t }}</a>
+						</div>
+					}
+				</section>
+
+				<section class="flex flex-col gap-2" aria-labelledby="overall-title">
+					<h2 id="overall-title" class="m-0! text-base font-semibold">{{ 'Overall' | t }}</h2>
+					<div
+						class="h-2 overflow-hidden rounded-full bg-soft"
+						role="progressbar"
+						aria-valuemin="0"
+						aria-valuemax="100"
+						[attr.aria-valuenow]="percent()"
+						[attr.aria-label]="'Theories studied' | t"
+					>
+						<div class="h-full rounded-full bg-brand" [style.width.%]="percent()"></div>
+					</div>
+					<p class="text-sm text-mute">{{ '{done} of {total} studied' | t: { done: studiedCount(), total: total } }}</p>
+				</section>
+			</div>
+
+			<section class="flex flex-col gap-3" aria-labelledby="blocks-title">
+				<h2 id="blocks-title" class="m-0! text-base font-semibold">{{ 'By topic' | t }}</h2>
+				<ul class="divide-y divide-line overflow-hidden rounded-xl border border-line bg-card">
+					@for (block of blocks(); track block.id) {
+						<li class="flex items-center justify-between gap-4 px-4 py-3">
+							<span class="font-medium">{{ block.label | t }}</span>
+							<span class="text-sm tabular-nums text-mute">{{ block.done }} / {{ block.total }}</span>
+						</li>
+					}
+				</ul>
+			</section>
+		</div>
+	}
+</section>

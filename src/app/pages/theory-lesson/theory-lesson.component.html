@@ -1,0 +1,58 @@
+<article class="mx-auto flex w-full max-w-2xl flex-col gap-6 px-4 pb-10 pt-4 sm:px-6">
+	<header class="flex flex-col gap-2">
+		<h1 class="text-2xl font-semibold tracking-tight">{{ theory.title[lang()] }}</h1>
+		<p class="text-sm text-mute">{{ group.label | t }} · #{{ theory.n }}</p>
+	</header>
+
+	<section class="flex flex-col gap-3" aria-labelledby="short-title">
+		<h2 id="short-title" class="m-0! -mb-1! text-lg font-semibold tracking-tight">{{ 'Short version' | t }}</h2>
+		<p class="leading-relaxed">{{ theory.short[lang()] }}</p>
+	</section>
+
+	@if (showFull()) {
+		<section class="flex flex-col gap-5" aria-labelledby="full-title">
+			<h2 id="full-title" class="m-0! -mb-1! text-lg font-semibold tracking-tight">{{ 'Full version' | t }}</h2>
+			@for (key of keys; track key; let i = $index) {
+				<div class="flex flex-col gap-1.5">
+					<h3 class="m-0! text-base font-semibold">{{ theory.labels[lang()][i] }}</h3>
+					@if (key === 'related') {
+						<ul class="flex list-disc flex-col gap-1 pl-5 leading-relaxed marker:text-mute">
+							@for (item of related(); track $index) {
+								<li>
+									@if (item.slug; as slug) {
+										<a [routerLink]="['/theory', slug]">{{ item.text }}</a>
+									} @else {
+										{{ item.text }}
+									}
+								</li>
+							}
+						</ul>
+					} @else {
+						<p class="leading-relaxed">{{ theory.full[lang()][key] }}</p>
+					}
+				</div>
+			}
+		</section>
+	}
+
+	<div class="flex flex-wrap gap-2 print:hidden">
+		<button class="ds-btn ds-btn-outline" type="button" [attr.aria-expanded]="expanded()" (click)="expanded.set(!expanded())">
+			{{ (expanded() ? 'Show short version' : 'Show full version') | t }}
+		</button>
+		<button class="ds-btn" [class]="studied() ? 'ds-btn-primary' : 'ds-btn-outline'" type="button" [attr.aria-pressed]="studied()" (click)="toggleStudied()">
+			{{ (studied() ? 'Studied' : 'Mark as studied') | t }}
+		</button>
+		<button class="ds-btn ds-btn-ghost" type="button" (click)="print(expanded() ? 'full' : 'short')">{{ 'Print' | t }}</button>
+	</div>
+
+	<nav class="flex justify-between gap-3 border-t border-line pt-4 text-sm print:hidden" [attr.aria-label]="'Other theories' | t">
+		@if (near.prev; as prev) {
+			<a class="min-w-0 flex-1" [routerLink]="['/theory', prev.slug]">← {{ prev.title[lang()] }}</a>
+		} @else {
+			<span class="flex-1"></span>
+		}
+		@if (near.next; as next) {
+			<a class="min-w-0 flex-1 text-right" [routerLink]="['/theory', next.slug]">{{ next.title[lang()] }} →</a>
+		}
+	</nav>
+</article>

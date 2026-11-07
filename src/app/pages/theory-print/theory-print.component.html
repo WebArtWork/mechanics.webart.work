@@ -1,0 +1,22 @@
+<section class="mx-auto flex w-full max-w-2xl flex-col gap-6 px-4 pb-10 pt-4 sm:px-6">
+	<div class="flex flex-wrap items-center justify-between gap-3 print:hidden">
+		<a routerLink="/theory">← {{ 'Theory' | t }}</a>
+		<button class="ds-btn ds-btn-primary" type="button" (click)="print()">{{ 'Print' | t }}</button>
+	</div>
+
+	<h1 class="text-2xl font-semibold tracking-tight">{{ (mode === 'short' ? 'Short theories' : 'Full theories') | t }}</h1>
+
+	@for (theory of theories; track theory.slug) {
+		<article class="flex flex-col gap-2 break-inside-avoid-page">
+			<h2 class="m-0! text-lg font-semibold tracking-tight">{{ theory.n }}. {{ theory.title[lang()] }}</h2>
+			@if (mode === 'short') {
+				<p class="leading-relaxed">{{ theory.short[lang()] }}</p>
+			} @else {
+				@for (key of keys; track key; let i = $index) {
+					<h3 class="m-0! mt-1! text-sm font-semibold">{{ theory.labels[lang()][i] }}</h3>
+					<p class="text-sm leading-relaxed">{{ theory.full[lang()][key] }}</p>
+				}
+			}
+		</article>
+	}
+</section>
