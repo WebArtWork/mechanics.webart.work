@@ -43,6 +43,7 @@
 				<p class="text-sm">
 					{{ 'This deletes your profile on our servers and your progress on this device. It cannot be undone.' | t }}
 					{{ 'You will be asked to sign in once more to confirm.' | t }}
+					{{ 'Your account is shared by every app of the learning ecosystem, so this deletes your data from all of them.' | t }}
 				</p>
 				<div class="flex flex-wrap gap-2">
 					<button class="ds-btn ds-btn-primary border-danger! bg-danger! text-white!" type="button" [disabled]="deleting()" (click)="deleteAccount()">

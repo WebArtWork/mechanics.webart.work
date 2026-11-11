@@ -58,10 +58,9 @@ npm run build:seo  # also writes sitemap.xml and robots.txt
 
 ## Before it goes live
 
-- **Firebase**: `src/environments/environment.prod.ts` has an empty web config on purpose, so this app does not
-  share the chess project. Until you fill it in, sign-in is off and the site works as a guest. Create a Firebase
-  project, enable Google (and Apple) sign-in, list `mechanics.webart.work` under authorized domains, paste the web
-  config, set the project in `.firebaserc` and run `npm run rules`.
+- **Firebase**: the app uses the shared learning project (`learning-c2766`), like the other apps without their own.
+  Enable Google (and Apple) sign-in there, list `mechanics.webart.work` under authorized domains, and deploy the
+  shared rules with `npm run rules` from the workspace root.
 - **Images**: the logo, icons and `src/assets/seo/default.jpg` are simple generated placeholders (a gear).
 - **Deploy**: `.github/workflows/deploy.yml` publishes to GitHub Pages with `CNAME` set to `mechanics.webart.work`.
   The repository itself still has to be created and pushed.

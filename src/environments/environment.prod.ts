@@ -21,14 +21,13 @@ export const environment: {
 	production: true,
 	companyId: '',
 	firebase: {
-		// TODO: create a Firebase project for this app and paste its web config here.
-		apiKey: '',
-		authDomain: '',
-		projectId: '',
-		storageBucket: '',
-		messagingSenderId: '',
-		appId: '',
-		measurementId: '',
+		apiKey: 'AIzaSyB2c85PUyTpz8Y92xGJDki2LAteOhQ-hY4',
+		authDomain: 'learning-c2766.firebaseapp.com',
+		projectId: 'learning-c2766',
+		storageBucket: 'learning-c2766.firebasestorage.app',
+		messagingSenderId: '232437004513',
+		appId: '1:232437004513:web:8712a0949537a694611fa0',
+		measurementId: 'G-47F1HP9G2M',
 	},
 	defaultLanguage: 'en',
 	languages: [
